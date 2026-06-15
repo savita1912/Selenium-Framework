@@ -1,0 +1,17 @@
+<!DOCTYPE suite >
+
+<suite name="Suite">
+
+  <listeners>
+    <listener class-name="com.framework.listeners.TestListener"/>
+  </listeners>
+
+  <test name="Login Test">
+    <classes>
+      <class name="com.framework.tests.LoginTest"/>
+     <!--   <class name="com.framework.tests.AddToCartTest"/>-->
+      
+    </classes>
+  </test>
+
+</suite>
