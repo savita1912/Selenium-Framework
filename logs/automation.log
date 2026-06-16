@@ -1,0 +1,79 @@
+2026-06-16 11:52:18 INFO  com.framework.tests.LoginTest - Starting Login Test
+2026-06-16 11:52:18 INFO  com.framework.tests.LoginTest - Credentials loaded
+2026-06-16 11:52:18 INFO  com.framework.tests.LoginTest - Login completed
+2026-06-16 11:52:18 INFO  com.framework.tests.LoginTest - Login Test Passed
+2026-06-16 12:33:44 INFO  com.framework.utils.Log - Launching Browser : chrome
+2026-06-16 12:33:44 INFO  com.framework.utils.Log - Creating Driver For : chrome
+2026-06-16 12:33:47 INFO  com.framework.utils.Log - Chrome Browser Started
+2026-06-16 12:33:48 INFO  com.framework.utils.Log - Navigated To : https://www.saucedemo.com
+2026-06-16 12:33:48 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:33:48 INFO  com.framework.utils.Log - TEST STARTED : verifyLogin
+2026-06-16 12:33:48 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:33:48 INFO  com.framework.utils.Log - Reading Login Data
+2026-06-16 12:33:48 INFO  com.framework.utils.Log - Performing Login
+2026-06-16 12:33:48 INFO  com.framework.utils.Log - TEST PASSED : verifyLogin
+2026-06-16 12:33:48 INFO  com.framework.utils.Log - Closing Browser
+2026-06-16 12:33:48 INFO  com.framework.utils.Log - Launching Browser : chrome
+2026-06-16 12:33:48 INFO  com.framework.utils.Log - Creating Driver For : chrome
+2026-06-16 12:33:50 INFO  com.framework.utils.Log - Chrome Browser Started
+2026-06-16 12:33:50 INFO  com.framework.utils.Log - Navigated To : https://www.saucedemo.com
+2026-06-16 12:33:50 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:33:50 INFO  com.framework.utils.Log - TEST STARTED : verifyinvalidLogin
+2026-06-16 12:33:50 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:33:50 INFO  com.framework.utils.Log - Performing Login
+2026-06-16 12:33:51 ERROR com.framework.utils.Log - TEST FAILED : verifyinvalidLogin
+2026-06-16 12:33:51 ERROR com.framework.utils.Log - java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked outqa.] but found [Epic sadface: Sorry, this user has been locked out.]
+2026-06-16 12:33:51 INFO  com.framework.utils.Log - Screenshot Attached : screenshots/verifyinvalidLogin.png
+2026-06-16 12:33:51 INFO  com.framework.utils.Log - Closing Browser
+2026-06-16 12:33:51 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:33:51 INFO  com.framework.utils.Log - TEST EXECUTION COMPLETED
+2026-06-16 12:39:46 INFO  com.framework.utils.Log - Launching Browser : chrome
+2026-06-16 12:39:46 INFO  com.framework.utils.Log - Creating Driver For : chrome
+2026-06-16 12:39:47 INFO  com.framework.utils.Log - Chrome Browser Started
+2026-06-16 12:39:48 INFO  com.framework.utils.Log - Navigated To : https://www.saucedemo.com
+2026-06-16 12:39:48 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:39:48 INFO  com.framework.utils.Log - TEST STARTED : verifyLogin
+2026-06-16 12:39:48 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:39:48 INFO  com.framework.utils.Log - Reading Login Data
+2026-06-16 12:39:48 INFO  com.framework.utils.Log - Performing Login
+2026-06-16 12:39:49 INFO  com.framework.utils.Log - TEST PASSED : verifyLogin
+2026-06-16 12:39:49 INFO  com.framework.utils.Log - Closing Browser
+2026-06-16 12:39:49 INFO  com.framework.utils.Log - Launching Browser : chrome
+2026-06-16 12:39:49 INFO  com.framework.utils.Log - Creating Driver For : chrome
+2026-06-16 12:39:50 INFO  com.framework.utils.Log - Chrome Browser Started
+2026-06-16 12:39:51 INFO  com.framework.utils.Log - Navigated To : https://www.saucedemo.com
+2026-06-16 12:39:51 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:39:51 INFO  com.framework.utils.Log - TEST STARTED : verifyinvalidLogin
+2026-06-16 12:39:51 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:39:51 INFO  com.framework.utils.Log - Performing Login
+2026-06-16 12:39:51 ERROR com.framework.utils.Log - TEST FAILED : verifyinvalidLogin
+2026-06-16 12:39:51 ERROR com.framework.utils.Log - java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked outqa.] but found [Epic sadface: Sorry, this user has been locked out.]
+2026-06-16 12:39:51 INFO  com.framework.utils.Log - Screenshot Attached : screenshots/verifyinvalidLogin.png
+2026-06-16 12:39:51 INFO  com.framework.utils.Log - Closing Browser
+2026-06-16 12:39:52 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:39:52 INFO  com.framework.utils.Log - TEST EXECUTION COMPLETED
+2026-06-16 12:40:46 INFO  com.framework.utils.Log - Launching Browser : chrome
+2026-06-16 12:40:46 INFO  com.framework.utils.Log - Creating Driver For : chrome
+2026-06-16 12:40:48 INFO  com.framework.utils.Log - Chrome Browser Started
+2026-06-16 12:40:49 INFO  com.framework.utils.Log - Navigated To : https://www.saucedemo.com
+2026-06-16 12:40:49 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:40:49 INFO  com.framework.utils.Log - TEST STARTED : verifyLogin
+2026-06-16 12:40:49 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:40:49 INFO  com.framework.utils.Log - Reading Login Data
+2026-06-16 12:40:49 INFO  com.framework.utils.Log - Performing Login
+2026-06-16 12:40:50 INFO  com.framework.utils.Log - TEST PASSED : verifyLogin
+2026-06-16 12:40:50 INFO  com.framework.utils.Log - Closing Browser
+2026-06-16 12:40:50 INFO  com.framework.utils.Log - Launching Browser : chrome
+2026-06-16 12:40:50 INFO  com.framework.utils.Log - Creating Driver For : chrome
+2026-06-16 12:40:51 INFO  com.framework.utils.Log - Chrome Browser Started
+2026-06-16 12:40:52 INFO  com.framework.utils.Log - Navigated To : https://www.saucedemo.com
+2026-06-16 12:40:52 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:40:52 INFO  com.framework.utils.Log - TEST STARTED : verifyinvalidLogin
+2026-06-16 12:40:52 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:40:52 INFO  com.framework.utils.Log - Performing Login
+2026-06-16 12:40:52 ERROR com.framework.utils.Log - TEST FAILED : verifyinvalidLogin
+2026-06-16 12:40:52 ERROR com.framework.utils.Log - java.lang.AssertionError: expected [Epic sadface: Sorry, this user has been locked outqa.] but found [Epic sadface: Sorry, this user has been locked out.]
+2026-06-16 12:40:53 INFO  com.framework.utils.Log - Screenshot Attached : screenshots/verifyinvalidLogin.png
+2026-06-16 12:40:53 INFO  com.framework.utils.Log - Closing Browser
+2026-06-16 12:40:53 INFO  com.framework.utils.Log - ====================================
+2026-06-16 12:40:53 INFO  com.framework.utils.Log - TEST EXECUTION COMPLETED

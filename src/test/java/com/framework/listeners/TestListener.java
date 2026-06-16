@@ -7,6 +7,7 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.framework.reporting.ExtentManager;
+import com.framework.utils.Log;
 import com.framework.utils.ScreenshotUtil;
 
 public class TestListener implements ITestListener {
@@ -21,18 +22,41 @@ public class TestListener implements ITestListener {
                 extent.createTest(result.getMethod().getMethodName());
 
         test.set(extentTest);
+        
+        Log.logger.info(
+                "====================================");
+
+        Log.logger.info(
+                "TEST STARTED : "
+                        + result.getMethod()
+                                .getMethodName());
+        Log.logger.info(
+                "====================================");
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
 
         test.get().pass("Test Passed");
+        Log.logger.info(
+                "TEST PASSED : "
+                        + result.getMethod()
+                                .getMethodName());
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
 
         test.get().fail(result.getThrowable());
+        
+
+        Log.logger.error(
+                "TEST FAILED : "
+                        + result.getMethod()
+                                .getMethodName());
+
+        Log.logger.error(
+                result.getThrowable());
         String screenshotPath =
                 ScreenshotUtil.captureScreenshot(
                         result.getMethod().getMethodName());
@@ -41,8 +65,13 @@ public class TestListener implements ITestListener {
 
             test.get().addScreenCaptureFromPath(
                     screenshotPath);
+            Log.logger.info(
+                    "Screenshot Attached : "
+                            + screenshotPath);
 
         } catch (Exception e) {
+        	Log.logger.error(
+                    "Unable To Attach Screenshot");
             e.printStackTrace();
         }
 
@@ -51,7 +80,11 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onFinish(ITestContext context) {
+    	Log.logger.info(
+                "====================================");
 
+        Log.logger.info(
+                "TEST EXECUTION COMPLETED");
         extent.flush();
     }
 }

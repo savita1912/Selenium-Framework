@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.framework.utils.Log;
 import com.framework.wrappers.ActionUtils;
 
 public class LoginPage {
@@ -31,6 +32,8 @@ public class LoginPage {
     }
 
     public void login(String user, String pass) {
+    	 Log.logger.info(
+    	            "Performing Login");
         action.type(driver.findElement(username), user);
         action.type(driver.findElement(password), pass);
         action.click(driver.findElement(loginbutton));
