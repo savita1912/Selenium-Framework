@@ -58,7 +58,7 @@ public class LoginTest extends BaseTest {
 
 	   	    		Assert.assertEquals(
 	   	    		    actualError,
-	   	    		    "Epic sadface: Sorry, this user has been locked outqa."
+	   	    		    "Epic sadface: Sorry, this user has been locked out."
 	   	    		);
 	    }
 }
