@@ -22,12 +22,13 @@ public class DriverFactory {
 	   
 // this is for using different browsser
 	   
-	   Log.logger.info(
-	            "Creating Driver For : "
+	   Log.logger.info("Creating Driver For : "
 	                    + browser);
+	   
     if(browser.equalsIgnoreCase("chrome")) {
         WebDriverManager.chromedriver().setup();
         driver.set(new ChromeDriver());
+        
         Log.logger.info(
                 "Chrome Browser Started");
     }
